@@ -14,6 +14,7 @@ This project is a Python implementation that uses pairs of colors to efficiently
 Install dependencies:
 
     pip install -r requirements.txt
+	pip install --upgrade --extra-index-url https://PySimpleGUI.net/install PySimpleGUI
 
 Run:
 
