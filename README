@@ -1,11 +1,25 @@
-Previous requirements:
-	- Having python 3.8 and "venv"
-	- Having installed python in the path
+# Miguel González Saiz
+## Similar Color Swapping Algorithm (SCSA) for steganography
+
+This project is a Python implementation that uses pairs of colors to efficiently encrypt compressed text within pixels.
 
 
-Installing notes:
+## Requirements
 
-1º Open windows CMD
-2º Type "create_env" to create an environment called "scsa-env" and activating it.
-3º Type "install" to install all necessary python packages.
-4º Type "run" to run the python application SCSA.
+* Python 3 [> 3.11]
+
+## Quickstart
+
+
+Install dependencies:
+
+    pip install -r requirements.txt
+
+Run:
+	python scsa_gui.py
+
+
+## License
+MIT
+
+**Free Software, Hell Yeah!**
