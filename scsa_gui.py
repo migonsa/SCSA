@@ -143,7 +143,12 @@ if __name__ == '__main__':
     ignore_patterns = None
     ignore_directories = True
     case_sensitive = False
-    my_event_handler = PatternMatchingEventHandler(patterns, ignore_patterns, ignore_directories, case_sensitive)
+    my_event_handler = PatternMatchingEventHandler(
+            patterns=patterns,
+            ignore_patterns=ignore_patterns,
+            ignore_directories=ignore_directories,
+            case_sensitive=case_sensitive
+    )
     prev_event = None
     
     
